@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Janda.Runtime.Security</RootNamespace>
     <Authors>Matt Janda</Authors>
-    <RepositoryUrl>https://github.com/Jandini/Janda.Runtime.Windows</RepositoryUrl>    
+    <RepositoryUrl>https://github.com/Jandini/Janda.Runtime</RepositoryUrl>    
   </PropertyGroup>
 
   <PropertyGroup>
