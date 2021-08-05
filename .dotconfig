@@ -5,3 +5,5 @@ DOT_BUILD_SOLUTIONS=Janda.Runtime.Security
 DOT_PUBLISH_RUNTIMES=win-x64
 # Add publish arguments e.g. -c Release -p:PublishSingleFile=true -p:PublishTrimmed=true
 DOT_PUBLISH_ARGUMENTS=-c Release
+# Nuget repository
+DOT_NUGET_SOURCE_URL=https://nuget.pkg.github.com/Jandini/index.json

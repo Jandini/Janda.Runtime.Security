@@ -1,8 +1,16 @@
-### Janda.Runtime.Security
+# Janda.Runtime.Security
 
-| master | develop |
-|:------:|:-----------:|
-|[![Build Status](http://nas:8081/buildStatus/icon?job=Janda.Runtime.Security/master)](http://nas:8081/job/Janda.Runtime.Security/job/master)|[![Build Status](http://nas:8081/buildStatus/icon?job=Janda.Runtime.Security/develop)](http://nas:8081/job/Janda.Runtime.Security/job/develop)|
+[![.NET](https://github.com/Jandini/Janda.Runtime.Security/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Jandini/Janda.Runtime.Security/actions/workflows/dotnet.yml)
+
+Provides an easy way to check if application is running with administrative privileges. 
 
 
+
+Following code will throw exception if administrator permissions are not available.
+
+
+```C#
+var identity = provider.GetRequiredService<IWindowsIdentityService>();
+identity.RequireAdministrator();
+```
 
